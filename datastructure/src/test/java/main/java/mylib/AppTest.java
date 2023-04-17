@@ -504,45 +504,7 @@ class AppTest {
         tree.Insert(25);
         assertEquals(25, tree.root.right.right.data);
     }
-
-    // @Test
-    // public void testInsertWithNode() {
-    // AVL tree1 = new AVL(new TNode(10));
-    // assertEquals(10, tree1.root.data);
-    // AVL tree2 = new AVL(new TNode(10, 0, new TNode(5), new TNode(20), null));
-    // assertEquals(10, tree2.root.data);
-    // }
-
-    // @Test
-    // public void testRotateLeft() {
-    // AVL tree = new AVL(new TNode(10, new TNode(5), new TNode(20)));
-    // TNode newRoot = tree.rotateLeft(tree.root);
-    // assertEquals(20, newRoot.data);
-    // assertEquals(10, newRoot.left.data);
-    // assertEquals(5, newRoot.left.left.data);
-    // }
-
-    // @Test
-    // public void testRotateRight() {
-    // AVL tree = new AVL(new TNode(10, new TNode(5), new TNode(20)));
-    // TNode newRoot = tree.rotateRight(tree.root);
-    // assertEquals(5, newRoot.data);
-    // assertEquals(10, newRoot.right.data);
-    // assertEquals(20, newRoot.right.right.data);
-    // }
-
-    // @Test
-    // public void testRotateLeftThenRight() {
-    // AVL tree = new AVL(new TNode(10, new TNode(5, new TNode(3), new TNode(8)),
-    // new TNode(20)));
-    // TNode newRoot = tree.rotateLeftThenRight(tree.root);
-    // assertEquals(8, newRoot.data);
-    // assertEquals(5, newRoot.left.data);
-    // assertEquals(10, newRoot.right.data);
-    // assertEquals(3, newRoot.left.left.data);
-    // assertEquals(20, newRoot.right.right.data);
-    // }
-
+   
     // Tests for AVl End here
 
     // Tests for BST
